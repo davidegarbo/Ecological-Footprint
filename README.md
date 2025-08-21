@@ -1,7 +1,9 @@
 **Project Overview**
+
 This repository contains the complete code and analysis for my Master's thesis investigating an alternative method to predict ecological footprint using various socio-economic and environmental indicators and advanced machine learning techniques.
 
 **Dataset**
+
 The analysis is based on a comprehensive dataset that includes:
 
 Target Variable: Ecological Footprint (gha per capita)
@@ -12,6 +14,7 @@ Categorical Variables: Region, Income Group, Country
 Time Coverage: 2-year analysis
 
 **Data Sources**
+
 The dataset combines multiple datasets from two sources:
 - Global Footprint Network
 - Our world in data
