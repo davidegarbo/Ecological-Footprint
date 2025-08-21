@@ -33,7 +33,6 @@ The dataset combines multiple datasets from two sources:
 - Box-Cox Transformations: Normalization of skewed distributions
 - Per Capita Calculations: Energy consumption normalized by population
 - Composite Features:
-
 a. Total renewable/non-renewable energy consumption
 b. Renewable energy ratio
 c. GDP per capita squared (non-linear effects)
