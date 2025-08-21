@@ -23,39 +23,36 @@ The dataset combines multiple datasets from two sources:
 
 1. Data Preprocessing
 
-Missing Value Treatment: Systematic handling using regional median imputation
-
-Outlier Detection: IQR-based outlier identification and removal
-
-Zero Handling: Strategic conversion of zeros to NA for energy variables
-
-Data Validation: Comprehensive quality checks and data integrity verification
+- Missing Value Treatment: Systematic handling using regional median imputation
+- Outlier Detection: IQR-based outlier identification and removal
+- Zero Handling: Strategic conversion of zeros to NA for energy variables
+- Data Validation: Comprehensive quality checks and data integrity verification
 
 2. Feature Engineering
 
-Box-Cox Transformations: Normalization of skewed distributions
-Per Capita Calculations: Energy consumption normalized by population
-Composite Features:
+- Box-Cox Transformations: Normalization of skewed distributions
+- Per Capita Calculations: Energy consumption normalized by population
+- Composite Features:
 
-Total renewable/non-renewable energy consumption
-Renewable energy ratio
-GDP per capita squared (non-linear effects)
+a. Total renewable/non-renewable energy consumption
+b. Renewable energy ratio
+c. GDP per capita squared (non-linear effects)
 
 
 
 3. Dimensionality Reduction
 
-Principal Component Analysis (PCA): Reduction of feature space while retaining 80%+ variance
-Component Interpretation: Analysis of principal component loadings
-Variance Decomposition: Comprehensive scree plot analysis
+- Principal Component Analysis (PCA): Reduction of feature space while retaining 80%+ variance
+- Component Interpretation: Analysis of principal component loadings
+- Variance Decomposition: Comprehensive scree plot analysis
 
 4. Machine Learning Models
 Implemented Algorithms:
 
-Linear Regression (on Principal Components)
-K-Nearest Neighbors (KNN) with hyperparameter tuning
-Random Forest with variable importance analysis
-XGBoost with comprehensive hyperparameter optimization
+- Linear Regression (on Principal Components)
+- K-Nearest Neighbors (KNN) with hyperparameter tuning
+- Random Forest with variable importance analysis
+- XGBoost with comprehensive hyperparameter optimization
 
 5. Model Evaluation:
 
