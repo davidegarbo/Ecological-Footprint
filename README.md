@@ -56,7 +56,7 @@ Implemented Algorithms:
 
 5. Model Evaluation:
 
-Cross-Validation: 10-fold CV for robust performance estimation
-Performance Metrics: RMSE, R²
-Diagnostic Plots: Residual analysis, QQ plots, actual vs predicted
-Feature Importance: Variable significance ranking
+- Cross-Validation: 10-fold CV for robust performance estimation
+- Performance Metrics: RMSE, R²
+- Diagnostic Plots: Residual analysis, QQ plots, actual vs predicted
+- Feature Importance: Variable significance ranking
