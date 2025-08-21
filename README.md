@@ -54,7 +54,7 @@ K-Nearest Neighbors (KNN) with hyperparameter tuning
 Random Forest with variable importance analysis
 XGBoost with comprehensive hyperparameter optimization
 
-Model Evaluation:
+5. Model Evaluation:
 
 Cross-Validation: 10-fold CV for robust performance estimation
 Performance Metrics: RMSE, R²
